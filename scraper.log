@@ -18,3 +18,43 @@
 2026-03-08 17:11:09,566 - INFO - Successfully read events.html
 2026-03-08 17:11:09,600 - INFO - Scraped 1 events successfully
 2026-03-08 17:11:09,601 - INFO - Saved 1 events to events.json
+2026-03-08 17:48:57,919 - INFO - Successfully read events.html
+2026-03-08 17:48:57,953 - INFO - Scraped 1 events successfully
+2026-03-08 17:48:57,955 - INFO - Successfully read events.html
+2026-03-08 17:48:57,992 - INFO - Scraped 1 events successfully
+2026-03-08 17:48:57,995 - INFO - Successfully read events.html
+2026-03-08 17:48:58,029 - INFO - Scraped 0 events successfully
+2026-03-08 17:48:58,031 - INFO - Successfully read events.html
+2026-03-08 17:48:58,065 - INFO - Scraped 1 events successfully
+2026-03-08 17:48:58,066 - INFO - Saved 1 events to events.json
+2026-03-08 17:48:59,050 - INFO - Successfully grabbed VIEWSTATE token
+2026-03-08 17:48:59,625 - WARNING - No results table found on City Rec page
+2026-03-08 17:53:03,471 - INFO - Successfully read events.html
+2026-03-08 17:53:03,506 - INFO - Scraped 1 events successfully
+2026-03-08 17:53:03,509 - INFO - Successfully read events.html
+2026-03-08 17:53:03,546 - INFO - Scraped 1 events successfully
+2026-03-08 17:53:03,549 - INFO - Successfully read events.html
+2026-03-08 17:53:03,583 - INFO - Scraped 0 events successfully
+2026-03-08 17:53:03,586 - INFO - Successfully read events.html
+2026-03-08 17:53:03,621 - INFO - Scraped 1 events successfully
+2026-03-08 17:53:03,622 - INFO - Saved 1 events to events.json
+2026-03-08 17:55:32,326 - INFO - Successfully read events.html
+2026-03-08 17:55:32,360 - INFO - Scraped 1 events successfully
+2026-03-08 17:55:32,362 - INFO - Successfully read events.html
+2026-03-08 17:55:32,399 - INFO - Scraped 1 events successfully
+2026-03-08 17:55:32,403 - INFO - Successfully read events.html
+2026-03-08 17:55:32,438 - INFO - Scraped 0 events successfully
+2026-03-08 17:55:32,441 - INFO - Successfully read events.html
+2026-03-08 17:55:32,475 - INFO - Scraped 1 events successfully
+2026-03-08 17:55:32,476 - INFO - Saved 1 events to events.json
+2026-03-08 17:57:35,687 - INFO - Successfully read events.html
+2026-03-08 17:57:35,722 - INFO - Scraped 1 events successfully
+2026-03-08 17:57:35,724 - INFO - Successfully read events.html
+2026-03-08 17:57:35,762 - INFO - Scraped 1 events successfully
+2026-03-08 17:57:35,765 - INFO - Successfully read events.html
+2026-03-08 17:57:35,799 - INFO - Scraped 0 events successfully
+2026-03-08 17:57:35,801 - INFO - Successfully read events.html
+2026-03-08 17:57:35,836 - INFO - Scraped 1 events successfully
+2026-03-08 17:57:35,837 - INFO - Saved 1 events to events.json
+2026-03-08 17:57:36,392 - INFO - Successfully grabbed VIEWSTATE token
+2026-03-08 17:57:36,792 - WARNING - No results table found on City Rec page

@@ -35,3 +35,16 @@ print_events(scrape_library_events("today"), "Today")
 print_events(scrape_library_events("tomorrow", age_filter="Kids"), "Kids Events")
 
 save_events(scrape_library_events("tomorrow"), "events.json")
+
+from scrapers.city_rec import scrape_city_rec_events
+
+# Test City Rec
+city_events = scrape_city_rec_events()
+print(f"\n🏊 SASKATOON CITY REC EVENTS")
+print("—" * 50)
+if city_events:
+    for i, e in enumerate(city_events, 1):
+        print(f"{i}. {e['name']}")
+        print(f"   📍 {e['location']} | 🕒 {e['time']}")
+else:
+    print("No events found.")
