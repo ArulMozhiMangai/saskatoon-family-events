@@ -1,4 +1,4 @@
-
+import json
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
@@ -10,7 +10,7 @@ def scrape_library_events(date="tomorrow"):
     events = soup.find_all('div', class_='row event-series')
 
     if date == "tomorrow":
-      date_label = (datetime.today() + timedelta(days=1)).strftime("%B %#d")
+        date_label = (datetime.today() + timedelta(days=1)).strftime("%B %#d")
     else:
         date_label = date
 
@@ -31,12 +31,23 @@ def scrape_library_events(date="tomorrow"):
 
     return event_list
 
-# --- Run & print nicely ---
-events = scrape_library_events("tomorrow")
-date_str = events[0]["date"] if events else "Today"
+def save_events(events, filename):
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(events, f, indent=2)
+    print(f"✅ Saved {len(events)} events to {filename}")
 
+# --- Run ---
+events = scrape_library_events("tomorrow")
+save_events(events, "events.json")
+
+# --- Load back and confirm ---
+with open("events.json", "r", encoding='utf-8') as f:
+    loaded = json.load(f)
+
+print("\n📂 Loaded from JSON:")
+date_str = loaded[0]["date"] if loaded else "Today"
 print(f"📚 SASKATOON LIBRARY EVENTS — Tomorrow ({date_str})")
 print("—" * 50)
-for i, e in enumerate(events, 1):
+for i, e in enumerate(loaded, 1):
     print(f"{i}. {e['name']}")
     print(f"   📍 {e['location']} | 🕒 {e['time']}")
