@@ -28,8 +28,19 @@ python main.py
 ## Sessions completed
 - Sessions 1–5: Setup, fetching, BeautifulSoup parsing, structured 
   dictionaries, clean formatted output
+- Sessions 6–7: JSON file I/O, error handling and logging
+- Sessions 8–10: Refactored into modules, date and age filter parameters
 
 ## Built with
 - Python 3
 - requests
 - BeautifulSoup4
+
+## Project structure
+- `main.py` — entry point, prints and saves events
+- `scrapers/library.py` — Saskatoon Library scraper
+- `scrapers/__init__.py` — makes scrapers a Python package
+- `requirements.txt` — project dependencies
+- `events.html` — locally saved library page (temporary, gitignored)
+- `events.json` — generated output (gitignored)
+- `scraper.log` — error log (gitignored)

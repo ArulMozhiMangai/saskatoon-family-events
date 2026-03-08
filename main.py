@@ -2,7 +2,6 @@ import json
 import logging
 from scrapers.library import scrape_library_events
 
-# --- Logging setup ---
 logging.basicConfig(
     filename='scraper.log',
     level=logging.INFO,
@@ -19,22 +18,20 @@ def save_events(events, filename):
         logging.error(f"Failed to save events: {ex}")
         print(f"❌ Could not save events: {ex}")
 
-# --- Run ---
-events = scrape_library_events("tomorrow")
-save_events(events, "events.json")
-
-# --- Load back and print ---
-try:
-    with open("events.json", "r", encoding='utf-8') as f:
-        loaded = json.load(f)
-
-    print("\n📂 Loaded from JSON:")
-    date_str = loaded[0]["date"] if loaded else "Today"
-    print(f"📚 SASKATOON LIBRARY EVENTS — Tomorrow ({date_str})")
+def print_events(events, label):
+    date_str = events[0]["date"] if events else "Today"
+    print(f"\n📚 SASKATOON LIBRARY EVENTS — {label} ({date_str})")
     print("—" * 50)
-    for i, e in enumerate(loaded, 1):
+    if not events:
+        print("No events found.")
+        return
+    for i, e in enumerate(events, 1):
         print(f"{i}. {e['name']}")
         print(f"   📍 {e['location']} | 🕒 {e['time']}")
-except Exception as ex:
-    logging.error(f"Failed to load events.json: {ex}")
-    print(f"❌ Could not load JSON: {ex}")
+
+# --- Test different parameters ---
+print_events(scrape_library_events("tomorrow"), "Tomorrow")
+print_events(scrape_library_events("today"), "Today")
+print_events(scrape_library_events("tomorrow", age_filter="Kids"), "Kids Events")
+
+save_events(scrape_library_events("tomorrow"), "events.json")
