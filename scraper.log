@@ -1,0 +1,11 @@
+2026-03-08 16:59:15,807 - INFO - Successfully read events.html
+2026-03-08 16:59:15,843 - INFO - Scraped 1 events successfully
+2026-03-08 16:59:15,844 - INFO - Saved 1 events to events.json
+2026-03-08 16:59:36,015 - ERROR - events.html not found — did you save the page?
+2026-03-08 16:59:36,016 - INFO - Saved 0 events to events.json
+2026-03-08 16:59:55,145 - INFO - Successfully read events.html
+2026-03-08 16:59:55,180 - INFO - Scraped 1 events successfully
+2026-03-08 16:59:55,181 - INFO - Saved 1 events to events.json
+2026-03-08 17:07:42,475 - INFO - Successfully read events.html
+2026-03-08 17:07:42,511 - INFO - Scraped 1 events successfully
+2026-03-08 17:07:42,512 - INFO - Saved 1 events to events.json
