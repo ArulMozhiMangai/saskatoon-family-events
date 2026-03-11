@@ -257,3 +257,80 @@ Call log:
 2026-03-10 21:25:34,217 - INFO - Scraped 1 events successfully
 2026-03-10 21:25:40,355 - INFO - Scraped 122 City Rec events
 2026-03-10 21:25:40,364 - INFO - Saved 123 events to events.json
+2026-03-10 21:29:50,062 - INFO - Successfully read events.html
+2026-03-10 21:29:50,097 - INFO - Scraped 1 events successfully
+2026-03-10 21:29:56,200 - INFO - Saved 1 events to events.json
+2026-03-10 21:30:15,301 - INFO - Successfully read events.html
+2026-03-10 21:30:15,337 - INFO - Scraped 1 events successfully
+2026-03-10 21:30:21,262 - INFO - Saved 1 events to events.json
+2026-03-10 21:35:55,002 - INFO - Successfully read events.html
+2026-03-10 21:35:55,037 - INFO - Scraped 1 events successfully
+2026-03-10 21:36:05,526 - INFO - Scraped 122 City Rec events
+2026-03-10 21:36:05,535 - INFO - Saved 123 events to events.json
+2026-03-10 21:36:12,887 - INFO - Successfully read events.html
+2026-03-10 21:36:12,922 - INFO - Scraped 1 events successfully
+2026-03-10 21:36:18,912 - INFO - Scraped 122 City Rec events
+2026-03-10 21:36:18,921 - INFO - Saved 123 events to events.json
+2026-03-10 21:36:43,491 - INFO - Successfully read events.html
+2026-03-10 21:36:43,527 - INFO - Scraped 1 events successfully
+2026-03-10 21:36:45,323 - ERROR - Failed to scrape City Rec: 'Locator' object has no attribute 'evaluateAll'
+2026-03-10 21:36:45,325 - INFO - Saved 1 events to events.json
+2026-03-10 21:36:53,555 - INFO - Successfully read events.html
+2026-03-10 21:36:53,590 - INFO - Scraped 1 events successfully
+2026-03-10 21:36:55,407 - ERROR - Failed to scrape City Rec: 'Locator' object has no attribute 'evaluateAll'
+2026-03-10 21:36:55,408 - INFO - Saved 1 events to events.json
+2026-03-10 21:37:28,126 - INFO - Successfully read events.html
+2026-03-10 21:37:28,162 - INFO - Scraped 1 events successfully
+2026-03-10 21:37:36,076 - INFO - Scraped 122 City Rec events
+2026-03-10 21:37:36,088 - INFO - Saved 123 events to events.json
+2026-03-10 21:37:54,487 - INFO - Successfully read events.html
+2026-03-10 21:37:54,522 - INFO - Scraped 1 events successfully
+2026-03-10 21:38:02,467 - INFO - Scraped 122 City Rec events
+2026-03-10 21:38:02,476 - INFO - Saved 123 events to events.json
+2026-03-10 21:41:54,115 - INFO - Successfully read events.html
+2026-03-10 21:41:54,151 - INFO - Scraped 1 events successfully
+2026-03-10 21:41:57,757 - ERROR - Failed to scrape City Rec: cannot access local variable 'day' where it is not associated with a value
+2026-03-10 21:41:57,759 - INFO - Saved 1 events to events.json
+2026-03-10 21:42:30,211 - INFO - Successfully read events.html
+2026-03-10 21:42:30,246 - INFO - Scraped 1 events successfully
+2026-03-10 21:42:32,117 - ERROR - Failed to scrape City Rec: cannot access local variable 'day' where it is not associated with a value
+2026-03-10 21:42:32,120 - INFO - Saved 1 events to events.json
+2026-03-10 21:45:27,905 - INFO - Successfully read events.html
+2026-03-10 21:45:27,941 - INFO - Scraped 1 events successfully
+2026-03-10 21:45:33,850 - INFO - Saved 1 events to events.json
+2026-03-10 21:45:39,246 - INFO - Successfully read events.html
+2026-03-10 21:45:39,281 - INFO - Scraped 1 events successfully
+2026-03-10 21:45:45,115 - INFO - Saved 1 events to events.json
+2026-03-10 21:47:42,437 - INFO - Successfully read events.html
+2026-03-10 21:47:42,473 - INFO - Scraped 1 events successfully
+2026-03-10 21:47:50,950 - INFO - Scraped 122 City Rec events
+2026-03-10 21:47:50,961 - INFO - Saved 123 events to events.json
+2026-03-10 21:47:55,913 - INFO - Successfully read events.html
+2026-03-10 21:47:55,949 - INFO - Scraped 1 events successfully
+2026-03-10 21:48:03,998 - INFO - Saved 1 events to events.json
+2026-03-10 21:53:42,529 - INFO - Successfully read events.html
+2026-03-10 21:53:42,565 - INFO - Scraped 1 events successfully
+2026-03-10 21:53:50,653 - INFO - Scraped 122 City Rec events
+2026-03-10 21:53:50,664 - INFO - Saved 123 events to events.json
+2026-03-10 21:54:32,278 - INFO - Successfully read events.html
+2026-03-10 21:54:32,313 - INFO - Scraped 1 events successfully
+2026-03-10 21:54:40,286 - INFO - Scraped 122 City Rec events
+2026-03-10 21:54:40,295 - INFO - Saved 123 events to events.json
+2026-03-10 22:01:46,454 - INFO - Successfully read events.html
+2026-03-10 22:01:46,489 - INFO - Scraped 1 events successfully
+2026-03-10 22:01:54,493 - INFO - Saved 1 events to events.json
+2026-03-10 22:01:54,494 - INFO - Saved 1 events to events.json
+2026-03-10 22:02:01,124 - INFO - Successfully read events.html
+2026-03-10 22:02:01,160 - INFO - Scraped 1 events successfully
+2026-03-10 22:02:09,169 - INFO - Scraped 122 City Rec events
+2026-03-10 22:02:09,179 - INFO - Saved 123 events to events.json
+2026-03-10 22:02:09,189 - INFO - Saved 123 events to events.json
+2026-03-10 22:02:11,890 - INFO - Successfully read events.html
+2026-03-10 22:02:11,926 - INFO - Scraped 1 events successfully
+2026-03-10 22:02:18,033 - ERROR - Failed to scrape City Rec: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+2026-03-10 22:02:18,034 - INFO - Saved 1 events to events.json
+2026-03-10 22:02:18,035 - INFO - Saved 1 events to events.json
+2026-03-10 22:02:54,990 - INFO - Successfully read events.html
+2026-03-10 22:02:55,029 - INFO - Scraped 1 events successfully
+2026-03-10 22:03:03,040 - INFO - Saved 1 events to events.json
+2026-03-10 22:03:03,041 - INFO - Saved 1 events to events.json

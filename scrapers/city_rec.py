@@ -13,23 +13,31 @@ def scrape_city_rec_events(date="tomorrow"):
 
     day = str(target.day)
     date_label = target.strftime("%B %#d")
+    print(f"🗓️ Looking for day: '{day}' (date: {target.strftime('%Y-%m-%d')})")
 
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=False)  # visible so we can see what happens
+            browser = p.chromium.launch(headless=False)
             page = browser.new_page()
             page.goto("https://apps5.saskatoon.ca/app/qRecTracDropin/DropinPrograms")
             page.wait_for_load_state("networkidle")
 
-            # Click the correct day in the calendar table
-            page.locator(f"table td a:has-text('{day}')").first.click()
+           # Click exact day using JavaScript
+            page.evaluate(f"""
+                const links = document.querySelectorAll('table#MainContent_myCalendar td a');
+                const link = Array.from(links).find(l => l.textContent.trim() === '{day}');
+                if (link) link.click();
+            """)
             
-            # Wait for results text then scroll to load table
-            page.wait_for_load_state("load")
-            page.wait_for_timeout(2000)
+            # Wait for page to fully reload with results
+            page.wait_for_timeout(1000)
+            page.wait_for_load_state("networkidle")
+            page.wait_for_timeout(3000)
             page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
             page.wait_for_timeout(2000)
             
+            # Take screenshot to verify
+            page.screenshot(path="debug.png")
             html = page.content()
             browser.close()
 

@@ -1,5 +1,6 @@
 import json
 import logging
+import argparse
 from scrapers.library import scrape_library_events
 from scrapers.city_rec import scrape_city_rec_events
 
@@ -38,12 +39,32 @@ def print_unified(events, date_label):
         time = e["time"].split(" - ")[0]  # just start time
         print(f"  {icon} {e['name']} — {e['location']} | {time}")
 
-# --- Fetch from both sources ---
-print("🔍 Fetching library events...")
-library_events = scrape_library_events("tomorrow")
+# --- Argument parsing ---
+parser = argparse.ArgumentParser()
+parser.add_argument('--date', default='tomorrow', help='today or tomorrow')
+args = parser.parse_args()
+date = args.date
 
-print("🔍 Fetching City Rec events...")
-city_events = scrape_city_rec_events("tomorrow")
+# --- Fetch from both sources ---
+print(f"🔍 Fetching library events for {date}...")
+library_events = scrape_library_events(date)
+
+print(f"🔍 Fetching City Rec events for {date}...")
+city_events = scrape_city_rec_events(date)
+
+# --- Combine and sort ---
+all_events = library_events + city_events
+all_events.sort(key=sort_key)
+
+# --- Print unified view ---
+from datetime import datetime, timedelta
+if date == "tomorrow":
+    date_label = (datetime.today() + timedelta(days=1)).strftime("%B %#d")
+else:
+    date_label = datetime.today().strftime("%B %#d")
+
+print_unified(all_events, f"{date.capitalize()} ({date_label})")
+save_events(all_events, "events.json")
 
 # --- Combine and sort ---
 all_events = library_events + city_events
