@@ -42,8 +42,11 @@ def print_unified(events, date_label):
 # --- Argument parsing ---
 parser = argparse.ArgumentParser()
 parser.add_argument('--date', default='tomorrow', help='today or tomorrow')
+parser.add_argument('--kids-only', action='store_true', help='show only family/kids events')
 args = parser.parse_args()
 date = args.date
+kids_only = args.kids_only
+print(f"Debug: date={date}, kids_only={kids_only}")  # add this
 
 # --- Fetch from both sources ---
 print(f"🔍 Fetching library events for {date}...")
@@ -55,6 +58,11 @@ city_events = scrape_city_rec_events(date)
 # --- Combine and sort ---
 all_events = library_events + city_events
 all_events.sort(key=sort_key)
+
+if kids_only:
+    keywords = ['kids', 'family', 'child', 'toddler', 'baby', 'story', 'playground', 'minding', 'tot']
+    all_events = [e for e in all_events if any(k in e['name'].lower() for k in keywords)]
+    print(f"👶 Kids/family filter applied — {len(all_events)} events found")
 
 # --- Print unified view ---
 from datetime import datetime, timedelta
@@ -69,11 +77,3 @@ save_events(all_events, "events.json")
 # --- Combine and sort ---
 all_events = library_events + city_events
 all_events.sort(key=sort_key)
-
-# --- Print unified view ---
-from datetime import datetime, timedelta
-date_label = (datetime.today() + timedelta(days=1)).strftime("%B %#d")
-print_unified(all_events, f"Tomorrow ({date_label})")
-
-# --- Save to JSON ---
-save_events(all_events, "events.json")

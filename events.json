@@ -1,9 +1,93 @@
 [
   {
-    "name": "Mindfully Unwinding Whiteness",
-    "date": "March 10",
-    "time": "1:30pm to 3:45pm",
-    "location": "Round Prairie Library",
-    "source": "Library"
+    "name": "Shaw Parented Splash Time (children 5 & under only)",
+    "date": "March 11",
+    "time": "10:30 AM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Indoor Playground (7 years & under)",
+    "date": "March 11",
+    "time": "1:00 PM - 4:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Archibald Parent and Tot Skate",
+    "date": "March 11",
+    "time": "2:30 PM - 3:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Parented Splash Time (children 5 & under only)",
+    "date": "March 11",
+    "time": "3:00 PM - 4:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Child Minding",
+    "date": "March 11",
+    "time": "5:00 PM - 8:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Child Minding",
+    "date": "March 11",
+    "time": "5:15 PM - 8:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Indoor Playground",
+    "date": "March 11",
+    "time": "7:00 PM - 9:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Parented Splash Time (children 5 and under only)",
+    "date": "March 11",
+    "time": "8:00 AM - 2:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Parented Splash Time (children 5 & under only)",
+    "date": "March 11",
+    "time": "8:15 PM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Child Minding",
+    "date": "March 11",
+    "time": "8:45 AM - 11:45 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Child Minding",
+    "date": "March 11",
+    "time": "9:00 AM - 11:45 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Child Minding",
+    "date": "March 11",
+    "time": "9:00 AM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Indoor Playground",
+    "date": "March 11",
+    "time": "9:00 AM - 4:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
   }
 ]

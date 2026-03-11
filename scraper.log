@@ -334,3 +334,29 @@ Call log:
 2026-03-10 22:02:55,029 - INFO - Scraped 1 events successfully
 2026-03-10 22:03:03,040 - INFO - Saved 1 events to events.json
 2026-03-10 22:03:03,041 - INFO - Saved 1 events to events.json
+2026-03-10 22:24:25,158 - INFO - Successfully read events.html
+2026-03-10 22:24:25,194 - INFO - Scraped 1 events successfully
+2026-03-10 22:24:34,079 - INFO - Saved 0 events to events.json
+2026-03-10 22:24:34,080 - INFO - Saved 1 events to events.json
+2026-03-10 22:24:48,600 - INFO - Successfully read events.html
+2026-03-10 22:24:48,635 - INFO - Scraped 1 events successfully
+2026-03-10 22:24:56,713 - INFO - Saved 0 events to events.json
+2026-03-10 22:24:56,714 - INFO - Saved 1 events to events.json
+2026-03-10 22:28:52,882 - INFO - Successfully read events.html
+2026-03-10 22:28:52,927 - INFO - Scraped 1 events successfully
+2026-03-10 22:29:01,037 - INFO - Scraped 122 City Rec events
+2026-03-10 22:29:01,040 - INFO - Saved 26 events to events.json
+2026-03-10 22:29:01,047 - INFO - Saved 123 events to events.json
+2026-03-10 22:33:24,721 - INFO - Successfully read events.html
+2026-03-10 22:33:24,756 - INFO - Scraped 1 events successfully
+2026-03-10 22:33:32,757 - INFO - Scraped 122 City Rec events
+2026-03-10 22:33:32,761 - INFO - Saved 26 events to events.json
+2026-03-10 22:33:32,769 - INFO - Saved 123 events to events.json
+2026-03-10 22:53:51,395 - INFO - Successfully read events.html
+2026-03-10 22:53:51,430 - INFO - Scraped 1 events successfully
+2026-03-10 22:53:59,506 - INFO - Scraped 122 City Rec events
+2026-03-10 22:53:59,510 - INFO - Saved 26 events to events.json
+2026-03-10 23:00:37,594 - INFO - Successfully read events.html
+2026-03-10 23:00:37,628 - INFO - Scraped 1 events successfully
+2026-03-10 23:00:48,214 - INFO - Scraped 122 City Rec events
+2026-03-10 23:00:48,217 - INFO - Saved 13 events to events.json
