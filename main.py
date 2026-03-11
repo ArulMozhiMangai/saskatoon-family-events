@@ -1,6 +1,7 @@
 import json
 import logging
 from scrapers.library import scrape_library_events
+from scrapers.city_rec import scrape_city_rec_events
 
 logging.basicConfig(
     filename='scraper.log',
@@ -18,35 +19,40 @@ def save_events(events, filename):
         logging.error(f"Failed to save events: {ex}")
         print(f"❌ Could not save events: {ex}")
 
-def print_events(events, label):
-    date_str = events[0]["date"] if events else "Today"
-    print(f"\n📚 SASKATOON LIBRARY EVENTS — {label} ({date_str})")
+def sort_key(event):
+    # Convert time string to sortable format
+    try:
+        time_str = event["time"].split(" - ")[0].strip()
+        return time_str
+    except:
+        return "99:99"
+
+def print_unified(events, date_label):
+    print(f"\n📅 SASKATOON EVENTS — {date_label}")
     print("—" * 50)
     if not events:
         print("No events found.")
         return
-    for i, e in enumerate(events, 1):
-        print(f"{i}. {e['name']}")
-        print(f"   📍 {e['location']} | 🕒 {e['time']}")
+    for e in events:
+        icon = "📚" if e["source"] == "Library" else "🏊"
+        time = e["time"].split(" - ")[0]  # just start time
+        print(f"  {icon} {e['name']} — {e['location']} | {time}")
 
-# --- Test different parameters ---
-print_events(scrape_library_events("tomorrow"), "Tomorrow")
-print_events(scrape_library_events("today"), "Today")
-print_events(scrape_library_events("tomorrow", age_filter="Kids"), "Kids Events")
+# --- Fetch from both sources ---
+print("🔍 Fetching library events...")
+library_events = scrape_library_events("tomorrow")
 
-save_events(scrape_library_events("tomorrow"), "events.json")
-
-from scrapers.city_rec import scrape_city_rec_events
-
-# Test City Rec
 print("🔍 Fetching City Rec events...")
 city_events = scrape_city_rec_events("tomorrow")
-print(f"Got {len(city_events)} city events")
-print(f"\n🏊 SASKATOON CITY REC EVENTS")
-print("—" * 50)
-if city_events:
-    for i, e in enumerate(city_events, 1):
-        print(f"{i}. {e['name']}")
-        print(f"   📍 {e['location']} | 🕒 {e['time']}")
-else:
-    print("No events found.")
+
+# --- Combine and sort ---
+all_events = library_events + city_events
+all_events.sort(key=sort_key)
+
+# --- Print unified view ---
+from datetime import datetime, timedelta
+date_label = (datetime.today() + timedelta(days=1)).strftime("%B %#d")
+print_unified(all_events, f"Tomorrow ({date_label})")
+
+# --- Save to JSON ---
+save_events(all_events, "events.json")

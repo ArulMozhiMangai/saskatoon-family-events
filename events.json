@@ -1,9 +1,863 @@
 [
   {
+    "name": "Lakewood Gentle Fitness Yoga",
+    "date": "March 11",
+    "time": "10:00 AM - 11:00 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Terry Fox Track",
+    "date": "March 11",
+    "time": "10:00 AM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Aqua Fitness",
+    "date": "March 11",
+    "time": "10:15 AM - 11:00 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Muscle Sculpt",
+    "date": "March 11",
+    "time": "10:30 AM - 11:30 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Racquetball or Wallyball",
+    "date": "March 11",
+    "time": "10:30 AM - 12:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Parented Splash Time (children 5 & under only)",
+    "date": "March 11",
+    "time": "10:30 AM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "WUP Shaw Lane Swim",
+    "date": "March 11",
+    "time": "10:30 AM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Deep Water Aqua Fitness",
+    "date": "March 11",
+    "time": "10:45 AM - 11:35 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Mat Pilates",
+    "date": "March 11",
+    "time": "10:45 AM - 11:45 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Gentle Aqua Fitness",
+    "date": "March 11",
+    "time": "10:50 AM - 11:35 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Functional Fitness",
+    "date": "March 11",
+    "time": "11:00 AM - 12:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Pickleball",
+    "date": "March 11",
+    "time": "11:00 AM - 12:05 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Lane Swim",
+    "date": "March 11",
+    "time": "11:00 AM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Chair Yoga",
+    "date": "March 11",
+    "time": "11:20 AM - 12:20 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Badminton",
+    "date": "March 11",
+    "time": "11:30 AM - 12:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Badminton",
+    "date": "March 11",
+    "time": "11:30 AM - 12:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Pickleball",
+    "date": "March 11",
+    "time": "11:30 AM - 12:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Pickleball",
+    "date": "March 11",
+    "time": "11:30 AM - 12:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Lane Swim",
+    "date": "March 11",
+    "time": "11:45 AM - 2:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Public Skate",
+    "date": "March 11",
+    "time": "12:00 PM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Racquetball or Wallyball",
+    "date": "March 11",
+    "time": "12:00 PM - 1:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Muscle Sculpt",
+    "date": "March 11",
+    "time": "12:10 PM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Pickleball",
+    "date": "March 11",
+    "time": "12:10 PM - 1:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Gentle Fitness Yoga",
+    "date": "March 11",
+    "time": "12:15 PM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Chair Yoga",
+    "date": "March 11",
+    "time": "12:15 PM - 1:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Badminton",
+    "date": "March 11",
+    "time": "12:30 PM - 1:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Badminton",
+    "date": "March 11",
+    "time": "12:30 PM - 1:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Pickleball",
+    "date": "March 11",
+    "time": "12:30 PM - 1:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Pickleball",
+    "date": "March 11",
+    "time": "12:30 PM - 1:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shallow",
+    "date": "March 11",
+    "time": "12:45 PM - 2:30 PM",
+    "location": "Lawson Aqua Walk",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Indoor Playground (7 years & under)",
+    "date": "March 11",
+    "time": "1:00 PM - 4:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Pickleball",
+    "date": "March 11",
+    "time": "1:20 PM - 2:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Badminton",
+    "date": "March 11",
+    "time": "1:30 PM - 2:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Badminton",
+    "date": "March 11",
+    "time": "1:30 PM - 2:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Pickleball",
+    "date": "March 11",
+    "time": "1:30 PM - 2:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Pickleball",
+    "date": "March 11",
+    "time": "1:30 PM - 2:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Racquetball or Wallyball",
+    "date": "March 11",
+    "time": "1:30 PM - 3:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
     "name": "Mindfully Unwinding Whiteness",
     "date": "March 11",
     "time": "1:30pm to 3:45pm",
     "location": "Round Prairie Library",
     "source": "Library"
+  },
+  {
+    "name": "Archibald Parent and Tot Skate",
+    "date": "March 11",
+    "time": "2:30 PM - 3:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Badminton",
+    "date": "March 11",
+    "time": "2:30 PM - 3:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Badminton",
+    "date": "March 11",
+    "time": "2:30 PM - 3:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Pickleball",
+    "date": "March 11",
+    "time": "2:30 PM - 3:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Pickleball",
+    "date": "March 11",
+    "time": "2:30 PM - 3:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Sensory Friendly Public Swim",
+    "date": "March 11",
+    "time": "2:30 PM - 4:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Aqua Walk",
+    "date": "March 11",
+    "time": "3:00 PM - 4:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Lane Swim",
+    "date": "March 11",
+    "time": "3:00 PM - 4:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "WUP Shaw Lane Swim",
+    "date": "March 11",
+    "time": "3:00 PM - 4:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Racquetball or Wallyball",
+    "date": "March 11",
+    "time": "3:00 PM - 4:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Parented Splash Time (children 5 & under only)",
+    "date": "March 11",
+    "time": "3:00 PM - 4:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Public Gym",
+    "date": "March 11",
+    "time": "3:00 PM - 5:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Teen Open Gym",
+    "date": "March 11",
+    "time": "3:30 PM - 6:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Racquetball or Wallyball",
+    "date": "March 11",
+    "time": "4:30 PM - 6:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Child Minding",
+    "date": "March 11",
+    "time": "5:00 PM - 8:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Child Minding",
+    "date": "March 11",
+    "time": "5:15 PM - 8:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Muscle Sculpt",
+    "date": "March 11",
+    "time": "5:30 PM - 6:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Group Cycle",
+    "date": "March 11",
+    "time": "5:45 PM - 6:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Low Impact & Sculpt",
+    "date": "March 11",
+    "time": "6:00 PM - 7:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Muscle Sculpt",
+    "date": "March 11",
+    "time": "6:00 PM - 7:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Racquetball or Wallyball",
+    "date": "March 11",
+    "time": "6:00 PM - 7:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shallow",
+    "date": "March 11",
+    "time": "6:15 AM - 8:00 AM",
+    "location": "Lawson Aqua Walk",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Lane Swim",
+    "date": "March 11",
+    "time": "6:15 AM - 8:00 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Deep",
+    "date": "March 11",
+    "time": "6:15 AM - 2:30 PM",
+    "location": "Lawson Aqua Walk",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Hot Tub",
+    "date": "March 11",
+    "time": "6:15 AM - 4:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Fitness & Weight Room",
+    "date": "March 11",
+    "time": "6:15 AM - 9:45 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Sauna",
+    "date": "March 11",
+    "time": "6:15 AM - 9:45 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Lane Swim",
+    "date": "March 11",
+    "time": "6:30 AM - 8:00 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "WUP Shaw Lane Swim",
+    "date": "March 11",
+    "time": "6:30 AM - 8:00 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Aqua Walk",
+    "date": "March 11",
+    "time": "6:30 AM - 10:00 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Aqua Walk",
+    "date": "March 11",
+    "time": "6:30 AM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Hot Tub",
+    "date": "March 11",
+    "time": "6:30 AM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Sauna",
+    "date": "March 11",
+    "time": "6:30 AM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Weight & Cardio Room",
+    "date": "March 11",
+    "time": "6:30 AM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Hot Tub",
+    "date": "March 11",
+    "time": "6:30 AM - 10:00 PM",
+    "location": "Shaw",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Cardio & Weight Room",
+    "date": "March 11",
+    "time": "6:30 AM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Walking Track",
+    "date": "March 11",
+    "time": "6:30 AM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw HIIT",
+    "date": "March 11",
+    "time": "6:45 PM - 7:45 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "25m",
+    "date": "March 11",
+    "time": "7:00 AM - 3:45 PM",
+    "location": "Shaw Comp Pool Lane Swim",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Badminton",
+    "date": "March 11",
+    "time": "7:00 AM - 4:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Public Track",
+    "date": "March 11",
+    "time": "7:00 AM - 4:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Pickleball",
+    "date": "March 11",
+    "time": "7:00 AM - 5:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Cardio & Weight Room",
+    "date": "March 11",
+    "time": "7:00 AM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Sauna",
+    "date": "March 11",
+    "time": "7:00 AM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Steam Room",
+    "date": "March 11",
+    "time": "7:00 AM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Indoor Playground",
+    "date": "March 11",
+    "time": "7:00 PM - 9:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Public Swim",
+    "date": "March 11",
+    "time": "7:00 PM - 9:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Public Swim",
+    "date": "March 11",
+    "time": "7:00 PM - 9:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Hot Tub",
+    "date": "March 11",
+    "time": "7:00 PM - 9:45 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Muscle Sculpt",
+    "date": "March 11",
+    "time": "7:10 PM - 8:10 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Fitness Yoga",
+    "date": "March 11",
+    "time": "7:15 PM - 8:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Racquetball or Wallyball",
+    "date": "March 11",
+    "time": "7:30 PM - 9:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Public Track",
+    "date": "March 11",
+    "time": "7:45 PM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Parented Splash Time (children 5 and under only)",
+    "date": "March 11",
+    "time": "8:00 AM - 2:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Saskatoon Field House Badminton",
+    "date": "March 11",
+    "time": "8:00 PM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Saskatoon Field House PIckleball",
+    "date": "March 11",
+    "time": "8:00 PM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Aqua Fitness",
+    "date": "March 11",
+    "time": "8:05 AM - 8:50 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Aqua Fitness",
+    "date": "March 11",
+    "time": "8:05 AM - 8:50 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Aqua Fitness",
+    "date": "March 11",
+    "time": "8:05 AM - 8:50 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Aqua Fitness",
+    "date": "March 11",
+    "time": "8:15 PM - 9:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Aqua Walk",
+    "date": "March 11",
+    "time": "8:15 PM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Hot Tub",
+    "date": "March 11",
+    "time": "8:15 PM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Parented Splash Time (children 5 & under only)",
+    "date": "March 11",
+    "time": "8:15 PM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Fitness Yoga",
+    "date": "March 11",
+    "time": "8:30 AM - 9:30 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "25m",
+    "date": "March 11",
+    "time": "8:35 PM - 10:00 PM",
+    "location": "Shaw Comp Pool Lane Swim",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Child Minding",
+    "date": "March 11",
+    "time": "8:45 AM - 11:45 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Aqua Fitness",
+    "date": "March 11",
+    "time": "8:55 AM - 9:40 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Aqua Fitness",
+    "date": "March 11",
+    "time": "9:00 AM - 9:45 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Low Impact & Sculpt",
+    "date": "March 11",
+    "time": "9:00 AM - 10:00 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Cardio & Sculpt",
+    "date": "March 11",
+    "time": "9:00 AM - 10:00 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Racquetball or Wallyball",
+    "date": "March 11",
+    "time": "9:00 AM - 10:30 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Child Minding",
+    "date": "March 11",
+    "time": "9:00 AM - 11:45 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Child Minding",
+    "date": "March 11",
+    "time": "9:00 AM - 1:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Indoor Playground",
+    "date": "March 11",
+    "time": "9:00 AM - 4:15 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Cosmo Weight Room",
+    "date": "March 11",
+    "time": "9:00 AM - 9:30 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Deep",
+    "date": "March 11",
+    "time": "9:00 PM - 9:45 PM",
+    "location": "Lawson Aqua Walk",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shallow",
+    "date": "March 11",
+    "time": "9:00 PM - 9:45 PM",
+    "location": "Lawson Aqua Walk",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Lane Swim",
+    "date": "March 11",
+    "time": "9:00 PM - 9:45 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Shaw Aqua Walk",
+    "date": "March 11",
+    "time": "9:00 PM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "WUP Shaw Lane Swim",
+    "date": "March 11",
+    "time": "9:00 PM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Lane Swim",
+    "date": "March 11",
+    "time": "9:05 PM - 10:00 PM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lakewood Aqua Fitness",
+    "date": "March 11",
+    "time": "9:10 AM - 9:55 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House Fitness Yoga",
+    "date": "March 11",
+    "time": "9:15 AM - 10:15 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Field House HIIT",
+    "date": "March 11",
+    "time": "9:15 AM - 10:15 AM",
+    "location": "City Rec",
+    "source": "City Rec"
+  },
+  {
+    "name": "Lawson Aqua Fitness",
+    "date": "March 11",
+    "time": "9:55 AM - 10:40 AM",
+    "location": "City Rec",
+    "source": "City Rec"
   }
 ]

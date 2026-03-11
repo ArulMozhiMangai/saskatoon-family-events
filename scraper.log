@@ -253,3 +253,7 @@ Call log:
 2026-03-10 21:22:04,757 - INFO - Successfully read events.html
 2026-03-10 21:22:04,792 - INFO - Scraped 1 events successfully
 2026-03-10 21:22:04,793 - INFO - Saved 1 events to events.json
+2026-03-10 21:25:34,180 - INFO - Successfully read events.html
+2026-03-10 21:25:34,217 - INFO - Scraped 1 events successfully
+2026-03-10 21:25:40,355 - INFO - Scraped 122 City Rec events
+2026-03-10 21:25:40,364 - INFO - Saved 123 events to events.json
