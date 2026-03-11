@@ -30,3 +30,9 @@
 ### Location field
 - Location is embedded in the Program Description (e.g. "Shaw - Hot Tub")
 - Format is usually "FacilityName - ProgramName"
+
+### Known Issue
+- Date selection on City Rec is handled by a JavaScript calendar widget
+- The hidden date field is set by JS, not visible in standard form POST
+- Fix: Use Playwright to click the calendar date, then extract the HTML
+- This will be resolved in the next session

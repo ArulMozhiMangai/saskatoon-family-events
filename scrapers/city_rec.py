@@ -1,51 +1,42 @@
-import requests
 import logging
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
+from playwright.sync_api import sync_playwright
 
-def scrape_city_rec_events(date=None):
-    url = "https://apps5.saskatoon.ca/app/qRecTracDropin/DropinPrograms"
+def scrape_city_rec_events(date="tomorrow"):
+    if date == "tomorrow":
+        target = datetime.today() + timedelta(days=1)
+    elif date == "today":
+        target = datetime.today()
+    else:
+        target = datetime.strptime(date, "%Y-%m-%d")
 
-    if date is None:
-        date = datetime.today().strftime("%m/%d/%Y")
-
-    try:
-        session = requests.Session()
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        }
-        response = session.get(url, headers=headers)
-        soup = BeautifulSoup(response.text, 'html.parser')
-
-        viewstate = soup.find('input', {'name': '__VIEWSTATE'})['value']
-        viewstate_gen = soup.find('input', {'name': '__VIEWSTATEGENERATOR'})['value']
-        event_validation = soup.find('input', {'name': '__EVENTVALIDATION'})['value']
-
-        logging.info("Successfully grabbed VIEWSTATE token")
-
-    except Exception as ex:
-        logging.error(f"Failed to load City Rec page: {ex}")
-        print(f"❌ Could not load City Rec page: {ex}")
-        return []
+    day = str(target.day)
+    date_label = target.strftime("%B %#d")
 
     try:
-        form_data = {
-            '__VIEWSTATE': viewstate,
-            '__VIEWSTATEGENERATOR': viewstate_gen,
-            '__EVENTVALIDATION': event_validation,
-            'ctl00$MainContent$lstKeywordSearch': 'All',
-            'ctl00$MainContent$Facility': 'All',
-            'ctl00$MainContent$ProgramTypes': 'All',
-            'ctl00$MainContent$SearchBy': 'radiobtnDaily',
-            'ctl00$MainContent$BtnSearchPrograms': 'Search',
-        }
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=False)  # visible so we can see what happens
+            page = browser.new_page()
+            page.goto("https://apps5.saskatoon.ca/app/qRecTracDropin/DropinPrograms")
+            page.wait_for_load_state("networkidle")
 
-        response = session.post(url, data=form_data, headers=headers)
-        soup = BeautifulSoup(response.text, 'html.parser')
+            # Click the correct day in the calendar table
+            page.locator(f"table td a:has-text('{day}')").first.click()
+            
+            # Wait for results text then scroll to load table
+            page.wait_for_load_state("load")
+            page.wait_for_timeout(2000)
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            page.wait_for_timeout(2000)
+            
+            html = page.content()
+            browser.close()
 
-        table = soup.find('table', {'id': 'tpwebsearch_output_table'})
+        soup = BeautifulSoup(html, 'html.parser')
+        table = soup.find('table', class_='table')
+
         if not table:
-            logging.warning("No results table found on City Rec page")
             print("⚠️ No results table found.")
             return []
 
@@ -69,7 +60,7 @@ def scrape_city_rec_events(date=None):
 
                 event_list.append({
                     "name": name,
-                    "date": date,
+                    "date": date_label,
                     "time": f"{begin_time} - {end_time}",
                     "location": location,
                     "source": "City Rec"
@@ -79,6 +70,6 @@ def scrape_city_rec_events(date=None):
         return event_list
 
     except Exception as ex:
-        logging.error(f"Failed to parse City Rec events: {ex}")
-        print(f"❌ Unexpected error: {ex}")
+        logging.error(f"Failed to scrape City Rec: {ex}")
+        print(f"❌ Error scraping City Rec: {ex}")
         return []

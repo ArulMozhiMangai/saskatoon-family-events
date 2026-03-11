@@ -39,7 +39,9 @@ save_events(scrape_library_events("tomorrow"), "events.json")
 from scrapers.city_rec import scrape_city_rec_events
 
 # Test City Rec
-city_events = scrape_city_rec_events()
+print("🔍 Fetching City Rec events...")
+city_events = scrape_city_rec_events("tomorrow")
+print(f"Got {len(city_events)} city events")
 print(f"\n🏊 SASKATOON CITY REC EVENTS")
 print("—" * 50)
 if city_events:

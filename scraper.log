@@ -58,3 +58,198 @@
 2026-03-08 17:57:35,837 - INFO - Saved 1 events to events.json
 2026-03-08 17:57:36,392 - INFO - Successfully grabbed VIEWSTATE token
 2026-03-08 17:57:36,792 - WARNING - No results table found on City Rec page
+2026-03-08 18:07:14,623 - INFO - Successfully read events.html
+2026-03-08 18:07:14,657 - INFO - Scraped 1 events successfully
+2026-03-08 18:07:14,660 - INFO - Successfully read events.html
+2026-03-08 18:07:14,697 - INFO - Scraped 1 events successfully
+2026-03-08 18:07:14,700 - INFO - Successfully read events.html
+2026-03-08 18:07:14,735 - INFO - Scraped 0 events successfully
+2026-03-08 18:07:14,738 - INFO - Successfully read events.html
+2026-03-08 18:07:14,773 - INFO - Scraped 1 events successfully
+2026-03-08 18:07:14,775 - INFO - Saved 1 events to events.json
+2026-03-08 18:07:43,287 - ERROR - Failed to scrape City Rec: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#tpwebsearch_output_table") to be visible
+
+2026-03-08 18:12:00,137 - INFO - Successfully read events.html
+2026-03-08 18:12:00,172 - INFO - Scraped 1 events successfully
+2026-03-08 18:12:00,174 - INFO - Successfully read events.html
+2026-03-08 18:12:00,211 - INFO - Scraped 1 events successfully
+2026-03-08 18:12:00,214 - INFO - Successfully read events.html
+2026-03-08 18:12:00,248 - INFO - Scraped 0 events successfully
+2026-03-08 18:12:00,250 - INFO - Successfully read events.html
+2026-03-08 18:12:00,285 - INFO - Scraped 1 events successfully
+2026-03-08 18:12:00,286 - INFO - Saved 1 events to events.json
+2026-03-08 18:14:42,653 - INFO - Successfully read events.html
+2026-03-08 18:14:42,688 - INFO - Scraped 1 events successfully
+2026-03-08 18:14:42,690 - INFO - Successfully read events.html
+2026-03-08 18:14:42,727 - INFO - Scraped 1 events successfully
+2026-03-08 18:14:42,729 - INFO - Successfully read events.html
+2026-03-08 18:14:42,763 - INFO - Scraped 0 events successfully
+2026-03-08 18:14:42,766 - INFO - Successfully read events.html
+2026-03-08 18:14:42,800 - INFO - Scraped 1 events successfully
+2026-03-08 18:14:42,801 - INFO - Saved 1 events to events.json
+2026-03-08 18:15:03,373 - INFO - Successfully read events.html
+2026-03-08 18:15:03,408 - INFO - Scraped 1 events successfully
+2026-03-08 18:15:03,410 - INFO - Successfully read events.html
+2026-03-08 18:15:03,447 - INFO - Scraped 1 events successfully
+2026-03-08 18:15:03,450 - INFO - Successfully read events.html
+2026-03-08 18:15:03,484 - INFO - Scraped 0 events successfully
+2026-03-08 18:15:03,487 - INFO - Successfully read events.html
+2026-03-08 18:15:03,522 - INFO - Scraped 1 events successfully
+2026-03-08 18:15:03,523 - INFO - Saved 1 events to events.json
+2026-03-08 18:16:11,750 - INFO - Successfully read events.html
+2026-03-08 18:16:11,785 - INFO - Scraped 1 events successfully
+2026-03-08 18:16:11,788 - INFO - Successfully read events.html
+2026-03-08 18:16:11,824 - INFO - Scraped 1 events successfully
+2026-03-08 18:16:11,827 - INFO - Successfully read events.html
+2026-03-08 18:16:11,861 - INFO - Scraped 0 events successfully
+2026-03-08 18:16:11,864 - INFO - Successfully read events.html
+2026-03-08 18:16:11,898 - INFO - Scraped 1 events successfully
+2026-03-08 18:16:11,899 - INFO - Saved 1 events to events.json
+2026-03-08 18:16:25,615 - INFO - Successfully read events.html
+2026-03-08 18:16:25,649 - INFO - Scraped 1 events successfully
+2026-03-08 18:16:25,652 - INFO - Successfully read events.html
+2026-03-08 18:16:25,688 - INFO - Scraped 1 events successfully
+2026-03-08 18:16:25,691 - INFO - Successfully read events.html
+2026-03-08 18:16:25,726 - INFO - Scraped 0 events successfully
+2026-03-08 18:16:25,728 - INFO - Successfully read events.html
+2026-03-08 18:16:25,762 - INFO - Scraped 1 events successfully
+2026-03-08 18:16:25,763 - INFO - Saved 1 events to events.json
+2026-03-08 18:17:19,492 - INFO - Successfully read events.html
+2026-03-08 18:17:19,527 - INFO - Scraped 1 events successfully
+2026-03-08 18:17:19,529 - INFO - Successfully read events.html
+2026-03-08 18:17:19,565 - INFO - Scraped 1 events successfully
+2026-03-08 18:17:19,568 - INFO - Successfully read events.html
+2026-03-08 18:17:19,602 - INFO - Scraped 0 events successfully
+2026-03-08 18:17:19,605 - INFO - Successfully read events.html
+2026-03-08 18:17:19,639 - INFO - Scraped 1 events successfully
+2026-03-08 18:17:19,640 - INFO - Saved 1 events to events.json
+2026-03-08 18:20:26,219 - INFO - Successfully read events.html
+2026-03-08 18:20:26,254 - INFO - Scraped 1 events successfully
+2026-03-08 18:20:26,257 - INFO - Successfully read events.html
+2026-03-08 18:20:26,293 - INFO - Scraped 1 events successfully
+2026-03-08 18:20:26,296 - INFO - Successfully read events.html
+2026-03-08 18:20:26,331 - INFO - Scraped 0 events successfully
+2026-03-08 18:20:26,334 - INFO - Successfully read events.html
+2026-03-08 18:20:26,369 - INFO - Scraped 1 events successfully
+2026-03-08 18:20:26,369 - INFO - Saved 1 events to events.json
+2026-03-08 18:20:37,480 - INFO - Successfully read events.html
+2026-03-08 18:20:37,515 - INFO - Scraped 1 events successfully
+2026-03-08 18:20:37,518 - INFO - Successfully read events.html
+2026-03-08 18:20:37,555 - INFO - Scraped 1 events successfully
+2026-03-08 18:20:37,559 - INFO - Successfully read events.html
+2026-03-08 18:20:37,594 - INFO - Scraped 0 events successfully
+2026-03-08 18:20:37,597 - INFO - Successfully read events.html
+2026-03-08 18:20:37,631 - INFO - Scraped 1 events successfully
+2026-03-08 18:20:37,632 - INFO - Saved 1 events to events.json
+2026-03-08 18:20:47,917 - INFO - Successfully read events.html
+2026-03-08 18:20:47,951 - INFO - Scraped 1 events successfully
+2026-03-08 18:20:47,954 - INFO - Successfully read events.html
+2026-03-08 18:20:47,993 - INFO - Scraped 1 events successfully
+2026-03-08 18:20:47,996 - INFO - Successfully read events.html
+2026-03-08 18:20:48,031 - INFO - Scraped 0 events successfully
+2026-03-08 18:20:48,033 - INFO - Successfully read events.html
+2026-03-08 18:20:48,069 - INFO - Scraped 1 events successfully
+2026-03-08 18:20:48,070 - INFO - Saved 1 events to events.json
+2026-03-08 18:22:12,639 - INFO - Successfully read events.html
+2026-03-08 18:22:12,673 - INFO - Scraped 1 events successfully
+2026-03-08 18:22:12,676 - INFO - Successfully read events.html
+2026-03-08 18:22:12,713 - INFO - Scraped 1 events successfully
+2026-03-08 18:22:12,715 - INFO - Successfully read events.html
+2026-03-08 18:22:12,749 - INFO - Scraped 0 events successfully
+2026-03-08 18:22:12,753 - INFO - Successfully read events.html
+2026-03-08 18:22:12,787 - INFO - Scraped 1 events successfully
+2026-03-08 18:22:12,789 - INFO - Saved 1 events to events.json
+2026-03-08 18:23:14,701 - INFO - Successfully read events.html
+2026-03-08 18:23:14,736 - INFO - Scraped 1 events successfully
+2026-03-08 18:23:14,738 - INFO - Successfully read events.html
+2026-03-08 18:23:14,776 - INFO - Scraped 1 events successfully
+2026-03-08 18:23:14,779 - INFO - Successfully read events.html
+2026-03-08 18:23:14,813 - INFO - Scraped 0 events successfully
+2026-03-08 18:23:14,816 - INFO - Successfully read events.html
+2026-03-08 18:23:14,851 - INFO - Scraped 1 events successfully
+2026-03-08 18:23:14,852 - INFO - Saved 1 events to events.json
+2026-03-08 18:25:22,153 - INFO - Successfully read events.html
+2026-03-08 18:25:22,188 - INFO - Scraped 1 events successfully
+2026-03-08 18:25:22,191 - INFO - Successfully read events.html
+2026-03-08 18:25:22,227 - INFO - Scraped 1 events successfully
+2026-03-08 18:25:22,230 - INFO - Successfully read events.html
+2026-03-08 18:25:22,265 - INFO - Scraped 0 events successfully
+2026-03-08 18:25:22,267 - INFO - Successfully read events.html
+2026-03-08 18:25:22,301 - INFO - Scraped 1 events successfully
+2026-03-08 18:25:22,302 - INFO - Saved 1 events to events.json
+2026-03-08 18:26:09,733 - INFO - Successfully read events.html
+2026-03-08 18:26:09,767 - INFO - Scraped 1 events successfully
+2026-03-08 18:26:09,769 - INFO - Successfully read events.html
+2026-03-08 18:26:09,808 - INFO - Scraped 1 events successfully
+2026-03-08 18:26:09,811 - INFO - Successfully read events.html
+2026-03-08 18:26:09,845 - INFO - Scraped 0 events successfully
+2026-03-08 18:26:09,848 - INFO - Successfully read events.html
+2026-03-08 18:26:09,882 - INFO - Scraped 1 events successfully
+2026-03-08 18:26:09,883 - INFO - Saved 1 events to events.json
+2026-03-09 20:35:56,375 - INFO - Successfully read events.html
+2026-03-09 20:35:56,411 - INFO - Scraped 1 events successfully
+2026-03-09 20:35:56,415 - INFO - Successfully read events.html
+2026-03-09 20:35:56,453 - INFO - Scraped 1 events successfully
+2026-03-09 20:35:56,456 - INFO - Successfully read events.html
+2026-03-09 20:35:56,493 - INFO - Scraped 0 events successfully
+2026-03-09 20:35:56,495 - INFO - Successfully read events.html
+2026-03-09 20:35:56,530 - INFO - Scraped 1 events successfully
+2026-03-09 20:35:56,532 - INFO - Saved 1 events to events.json
+2026-03-09 20:41:24,906 - INFO - Successfully read events.html
+2026-03-09 20:41:24,941 - INFO - Scraped 1 events successfully
+2026-03-09 20:41:24,944 - INFO - Successfully read events.html
+2026-03-09 20:41:24,981 - INFO - Scraped 1 events successfully
+2026-03-09 20:41:24,984 - INFO - Successfully read events.html
+2026-03-09 20:41:25,019 - INFO - Scraped 0 events successfully
+2026-03-09 20:41:25,022 - INFO - Successfully read events.html
+2026-03-09 20:41:25,056 - INFO - Scraped 1 events successfully
+2026-03-09 20:41:25,057 - INFO - Saved 1 events to events.json
+2026-03-09 20:43:43,139 - INFO - Successfully read events.html
+2026-03-09 20:43:43,174 - INFO - Scraped 1 events successfully
+2026-03-09 20:43:43,176 - INFO - Successfully read events.html
+2026-03-09 20:43:43,214 - INFO - Scraped 1 events successfully
+2026-03-09 20:43:43,216 - INFO - Successfully read events.html
+2026-03-09 20:43:43,250 - INFO - Scraped 0 events successfully
+2026-03-09 20:43:43,253 - INFO - Successfully read events.html
+2026-03-09 20:43:43,287 - INFO - Scraped 1 events successfully
+2026-03-09 20:43:43,289 - INFO - Saved 1 events to events.json
+2026-03-09 20:47:55,634 - INFO - Successfully read events.html
+2026-03-09 20:47:55,669 - INFO - Scraped 1 events successfully
+2026-03-09 20:47:55,671 - INFO - Successfully read events.html
+2026-03-09 20:47:55,709 - INFO - Scraped 1 events successfully
+2026-03-09 20:47:55,712 - INFO - Successfully read events.html
+2026-03-09 20:47:55,747 - INFO - Scraped 0 events successfully
+2026-03-09 20:47:55,750 - INFO - Successfully read events.html
+2026-03-09 20:47:55,785 - INFO - Scraped 1 events successfully
+2026-03-09 20:47:55,786 - INFO - Saved 1 events to events.json
+2026-03-09 20:48:24,182 - INFO - Successfully read events.html
+2026-03-09 20:48:24,217 - INFO - Scraped 1 events successfully
+2026-03-09 20:48:24,220 - INFO - Successfully read events.html
+2026-03-09 20:48:24,257 - INFO - Scraped 1 events successfully
+2026-03-09 20:48:24,259 - INFO - Successfully read events.html
+2026-03-09 20:48:24,294 - INFO - Scraped 0 events successfully
+2026-03-09 20:48:24,296 - INFO - Successfully read events.html
+2026-03-09 20:48:24,331 - INFO - Scraped 1 events successfully
+2026-03-09 20:48:24,332 - INFO - Saved 1 events to events.json
+2026-03-09 20:48:30,959 - INFO - Scraped 125 City Rec events
+2026-03-09 20:50:39,607 - INFO - Successfully read events.html
+2026-03-09 20:50:39,643 - INFO - Scraped 1 events successfully
+2026-03-09 20:50:39,645 - INFO - Successfully read events.html
+2026-03-09 20:50:39,682 - INFO - Scraped 1 events successfully
+2026-03-09 20:50:39,684 - INFO - Successfully read events.html
+2026-03-09 20:50:39,719 - INFO - Scraped 0 events successfully
+2026-03-09 20:50:39,722 - INFO - Successfully read events.html
+2026-03-09 20:50:39,756 - INFO - Scraped 1 events successfully
+2026-03-09 20:50:39,758 - INFO - Saved 1 events to events.json
+2026-03-09 20:50:45,846 - INFO - Scraped 125 City Rec events
+2026-03-10 21:22:04,642 - INFO - Successfully read events.html
+2026-03-10 21:22:04,678 - INFO - Scraped 1 events successfully
+2026-03-10 21:22:04,681 - INFO - Successfully read events.html
+2026-03-10 21:22:04,717 - INFO - Scraped 1 events successfully
+2026-03-10 21:22:04,720 - INFO - Successfully read events.html
+2026-03-10 21:22:04,754 - INFO - Scraped 0 events successfully
+2026-03-10 21:22:04,757 - INFO - Successfully read events.html
+2026-03-10 21:22:04,792 - INFO - Scraped 1 events successfully
+2026-03-10 21:22:04,793 - INFO - Saved 1 events to events.json
