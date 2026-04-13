@@ -28,11 +28,20 @@ def scrape_city_rec_events(date="tomorrow"):
                 const link = Array.from(links).find(l => l.textContent.trim() === '{day}');
                 if (link) link.click();
             """)
-            
-            # Wait for page to fully reload with results
+              
+      # Wait for date selection to register
             page.wait_for_timeout(1000)
+            
+            # Click Search via JavaScript
+            page.evaluate("""
+                const btn = document.querySelector('input[value="Search"]');
+                if (btn) btn.click();
+            """)
+            
             page.wait_for_load_state("networkidle")
             page.wait_for_timeout(3000)
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            page.wait_for_timeout(2000)
             page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
             page.wait_for_timeout(2000)
             

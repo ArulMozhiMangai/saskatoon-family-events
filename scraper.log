@@ -360,3 +360,22 @@ Call log:
 2026-03-10 23:00:37,628 - INFO - Scraped 1 events successfully
 2026-03-10 23:00:48,214 - INFO - Scraped 122 City Rec events
 2026-03-10 23:00:48,217 - INFO - Saved 13 events to events.json
+2026-04-13 01:13:19,238 - INFO - Successfully read events.html
+2026-04-13 01:13:19,274 - INFO - Scraped 1 events successfully
+2026-04-13 01:13:27,299 - INFO - Saved 1 events to events.json
+2026-04-13 01:13:36,163 - INFO - Successfully read events.html
+2026-04-13 01:13:36,199 - INFO - Scraped 1 events successfully
+2026-04-13 01:13:44,168 - INFO - Scraped 123 City Rec events
+2026-04-13 01:13:44,176 - INFO - Saved 124 events to events.json
+2026-04-13 01:16:16,925 - INFO - Successfully read events.html
+2026-04-13 01:16:16,960 - INFO - Scraped 1 events successfully
+2026-04-13 01:16:25,286 - INFO - Scraped 123 City Rec events
+2026-04-13 01:16:25,293 - INFO - Saved 124 events to events.json
+2026-04-13 01:18:06,626 - INFO - Successfully read events.html
+2026-04-13 01:18:06,661 - INFO - Scraped 1 events successfully
+2026-04-13 01:18:16,722 - INFO - Scraped 123 City Rec events
+2026-04-13 01:18:16,731 - INFO - Saved 124 events to events.json
+2026-04-13 01:23:15,290 - INFO - Successfully read events.html
+2026-04-13 01:23:15,325 - INFO - Scraped 1 events successfully
+2026-04-13 01:23:25,343 - INFO - Scraped 123 City Rec events
+2026-04-13 01:23:25,352 - INFO - Saved 124 events to events.json
