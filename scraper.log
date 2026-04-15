@@ -379,3 +379,29 @@ Call log:
 2026-04-13 01:23:15,325 - INFO - Scraped 1 events successfully
 2026-04-13 01:23:25,343 - INFO - Scraped 123 City Rec events
 2026-04-13 01:23:25,352 - INFO - Saved 124 events to events.json
+2026-04-14 23:23:22,691 - INFO - Successfully read events.html
+2026-04-14 23:23:22,727 - INFO - Scraped 1 events successfully
+2026-04-14 23:23:32,860 - INFO - Saved 1 events to events.json
+2026-04-14 23:23:54,965 - INFO - Successfully read events.html
+2026-04-14 23:23:55,003 - INFO - Scraped 1 events successfully
+2026-04-14 23:24:05,035 - INFO - Saved 1 events to events.json
+2026-04-14 23:26:15,508 - INFO - Successfully read events.html
+2026-04-14 23:26:15,544 - INFO - Scraped 1 events successfully
+2026-04-14 23:26:21,705 - ERROR - Failed to scrape City Rec: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+2026-04-14 23:26:21,707 - INFO - Saved 1 events to events.json
+2026-04-14 23:41:44,719 - INFO - Successfully read events.html
+2026-04-14 23:41:44,755 - INFO - Scraped 1 events successfully
+2026-04-14 23:41:54,883 - INFO - Scraped 120 City Rec events
+2026-04-14 23:41:54,890 - INFO - Saved 121 events to events.json
+2026-04-14 23:43:44,744 - INFO - Successfully read events.html
+2026-04-14 23:43:44,780 - INFO - Scraped 1 events successfully
+2026-04-14 23:43:49,310 - ERROR - Failed to scrape City Rec: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+2026-04-14 23:43:49,312 - INFO - Saved 0 events to events.json
+2026-04-14 23:44:09,500 - INFO - Successfully read events.html
+2026-04-14 23:44:09,536 - INFO - Scraped 1 events successfully
+2026-04-14 23:44:12,416 - ERROR - Failed to scrape City Rec: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+2026-04-14 23:44:12,418 - INFO - Saved 0 events to events.json
+2026-04-14 23:45:23,356 - INFO - Successfully read events.html
+2026-04-14 23:45:23,391 - INFO - Scraped 1 events successfully
+2026-04-14 23:45:33,437 - INFO - Scraped 120 City Rec events
+2026-04-14 23:45:33,440 - INFO - Saved 15 events to events.json
